@@ -50,11 +50,17 @@ for i in range(1,N) :
 N = int(input())
 for i in range(1,N) :
     print()
-'''
+# 심화 1
 import sys
 N,M,x,y,K = map(int,sys.stdin.readline().split())
 a=[]
 for i in range(N) :
     a.append(list(map(int,sys.stdin.readline().split())))
 list(map(int,sys.stdin.readline().split()))
+'''
+import sys
+N,K,M = map(int,sys.stdin.readline().split())
+for i in range(N) :
+    for j in range(K) :
+
 
