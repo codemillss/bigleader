@@ -57,10 +57,17 @@ a=[]
 for i in range(N) :
     a.append(list(map(int,sys.stdin.readline().split())))
 list(map(int,sys.stdin.readline().split()))
-'''
+
 import sys
 N,K,M = map(int,sys.stdin.readline().split())
 for i in range(N) :
     for j in range(K) :
+'''
+
+
+
+
+
+
 
 
