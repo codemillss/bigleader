@@ -1,8 +1,10 @@
 {
   "name": "D1L4_기본액티비티이해와실습",
+  "projectId": "89a62846-c37b-4102-a86d-9b28b7734ebd",
   "description": "빈 프로세스",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
     "UiPath.Excel.Activities": "[2.20.2]",
     "UiPath.Mail.Activities": "[1.20.0]",
     "UiPath.System.Activities": "[23.4.3]",

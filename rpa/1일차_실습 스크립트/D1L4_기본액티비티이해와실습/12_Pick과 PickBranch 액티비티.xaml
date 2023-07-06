@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="_12_Pick과_PickBranch_액티비티" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1041.3333333333333,618" sap2010:WorkflowViewState.IdRef="_12_Pick과_PickBranch_액티비티_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="_12_Pick과_PickBranch_액티비티" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1418,606" sap2010:WorkflowViewState.IdRef="_12_Pick과_PickBranch_액티비티_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -50,24 +50,30 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_12_Pick과_PickBranch_액티비티" sap:VirtualizedContainerService.HintSize="1005.3333333333334,546" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_12_Pick과_PickBranch_액티비티" sap:VirtualizedContainerService.HintSize="1428,541" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Pick sap:VirtualizedContainerService.HintSize="943.3333333333334,435.3333333333333" sap2010:WorkflowViewState.IdRef="Pick_1">
-      <PickBranch sap:VirtualizedContainerService.HintSize="384.6666666666667,388" sap2010:WorkflowViewState.IdRef="PickBranch_1">
+    <Pick sap:VirtualizedContainerService.HintSize="1366,430" sap2010:WorkflowViewState.IdRef="Pick_1">
+      <PickBranch sap:VirtualizedContainerService.HintSize="384,383" sap2010:WorkflowViewState.IdRef="PickBranch_1">
         <PickBranch.Trigger>
-          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="Delay_1" />
         </PickBranch.Trigger>
-        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="1초 실행" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="1초 실행" />
       </PickBranch>
-      <PickBranch sap:VirtualizedContainerService.HintSize="384.6666666666667,388" sap2010:WorkflowViewState.IdRef="PickBranch_2">
+      <PickBranch sap:VirtualizedContainerService.HintSize="384,383" sap2010:WorkflowViewState.IdRef="PickBranch_2">
         <PickBranch.Trigger>
-          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="Delay_2" />
+          <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="Delay_2" />
         </PickBranch.Trigger>
-        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="3초 실행" />
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="3초 실행" />
+      </PickBranch>
+      <PickBranch sap:VirtualizedContainerService.HintSize="384,383" sap2010:WorkflowViewState.IdRef="PickBranch_3">
+        <PickBranch.Trigger>
+          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="Delay_3" />
+        </PickBranch.Trigger>
+        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="2초 실행" />
       </PickBranch>
     </Pick>
   </Sequence>
